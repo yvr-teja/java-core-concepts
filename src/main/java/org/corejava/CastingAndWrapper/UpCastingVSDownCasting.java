@@ -1,11 +1,11 @@
 package org.corejava.CastingAndWrapper;
 
-class A{
+class AClass{
     public void show1(){
         System.out.println("in a showing A");
     }
 }
-class B extends A{
+class BClass extends AClass{
     public void show2(){
         System.out.println("in a showing B");
     }
@@ -19,11 +19,11 @@ public class UpCastingVSDownCasting {
         System.out.println(i);
 
         //UpCasting
-        A obj= new B(); // (A) new B();
+        AClass obj= new BClass(); // (A) new B();
         obj.show1();
 
         //DownCasting
-        B obj1 = (B)obj;
+        BClass obj1 = (BClass)obj;
         obj1.show2();
     }
 }

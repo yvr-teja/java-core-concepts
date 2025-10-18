@@ -34,7 +34,6 @@ public class WrapperExample {
     }
 
 }
-/*
 class A{
     //final int number;
     final int number=20;
@@ -49,4 +48,4 @@ class A{
     protected void finalize() throws Throwable{
         System.out.println("Object destroyed");
     }
-}*/
+}

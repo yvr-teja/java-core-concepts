@@ -1,4 +1,4 @@
-package basic.java.course;
+package org.corejava.Methods;
 
 public class TypesOfMethods {
     //Type1- No return type with no Arguments

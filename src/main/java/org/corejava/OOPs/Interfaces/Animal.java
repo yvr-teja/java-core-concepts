@@ -1,4 +1,4 @@
-package TopicWisePrograms.OOPs.Interfaces;
+package org.corejava.OOPs.Interfaces;
 
 public interface Animal
 {

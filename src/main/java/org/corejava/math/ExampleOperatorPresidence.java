@@ -1,4 +1,4 @@
-package math;
+package org.corejava.math;
 
 public class ExampleOperatorPresidence {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package TopicWisePrograms.OOPs.Abstraction;
+package org.corejava.OOPs.Abstraction;
 
 public class Dog extends Animal{
 

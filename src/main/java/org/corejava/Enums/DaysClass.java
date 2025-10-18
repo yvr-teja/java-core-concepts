@@ -1,4 +1,4 @@
-package Enums;
+package org.corejava.Enums;
 
 public class DaysClass {
     public static final String SUNDAY="SUNDAY";

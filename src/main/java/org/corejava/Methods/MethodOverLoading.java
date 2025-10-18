@@ -1,4 +1,4 @@
-package Methods;
+package org.corejava.Methods;
 
 public class MethodOverLoading {
      int add(int a,int b){

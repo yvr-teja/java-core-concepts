@@ -1,4 +1,4 @@
-package Methods;
+package org.corejava.Methods;
 
 public class IntroductionFunctions {
         /* if you are calling function inside the static

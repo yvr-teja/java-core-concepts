@@ -1,4 +1,4 @@
-package Methods;
+package org.corejava.Methods;
 
 //import java.sql.SQLOutput;
 

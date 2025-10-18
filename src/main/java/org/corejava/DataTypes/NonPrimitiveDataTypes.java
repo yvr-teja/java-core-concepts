@@ -1,4 +1,4 @@
-package DataTypes;
+package org.corejava.DataTypes;
 
 public class NonPrimitiveDataTypes {
 

@@ -1,4 +1,4 @@
-package CastingAndWrapper;
+package org.corejava.CastingAndWrapper;
 
 public class ExplicitCasting {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package genericsexample;
+package org.corejava.genericsexample;
 
 public class Pair<K, V> {
 

@@ -1,4 +1,4 @@
-package Enums;
+package org.corejava.Enums;
 
 public class TestEnum {
     public static void main(String[] args) {

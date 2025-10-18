@@ -1,4 +1,4 @@
-package Generics;
+package org.corejava.Generics;
 
 public class GenEx1<T,U,V> {
     T item;

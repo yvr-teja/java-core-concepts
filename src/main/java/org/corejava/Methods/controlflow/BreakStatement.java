@@ -1,4 +1,4 @@
-package Methods.controlflow;
+package org.corejava.Methods.controlflow;
 
 public class BreakStatement {
     public static void main(String[] args) {

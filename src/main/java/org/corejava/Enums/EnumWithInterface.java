@@ -1,4 +1,4 @@
-package Enums;
+package org.corejava.Enums;
 
 public class EnumWithInterface {
     //Interface makes Instance variables in as static and final

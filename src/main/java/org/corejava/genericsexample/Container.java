@@ -1,4 +1,4 @@
-package genericsexample;
+package org.corejava.genericsexample;
 
 public interface Container <T>{
     void add(T item);

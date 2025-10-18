@@ -1,4 +1,4 @@
-package math;
+package org.corejava.math;
 
 public class MathExample1 {
     public static void main(String[] args) {

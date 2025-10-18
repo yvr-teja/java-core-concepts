@@ -1,4 +1,4 @@
-package IntorductionToJava;
+package org.corejava.IntorductionToJava;
 
 public class OopsPrimitive {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package CastingAndWrapper;
+package org.corejava.CastingAndWrapper;
 
 class A{
     public void show1(){

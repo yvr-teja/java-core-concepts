@@ -1,4 +1,4 @@
-package TopicWisePrograms.OOPs.Encapsulation;
+package org.corejava.OOPs.Encapsulation;
 
 public class BikeRunner {
     public static void main(String[] args) {

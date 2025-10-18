@@ -1,4 +1,4 @@
-package CastingAndWrapper;
+package org.corejava.CastingAndWrapper;
 
 //byte → short → int → long → float → double
 public class ImplicitCasting {

@@ -1,4 +1,4 @@
-package InterviewQuestions.removeDuplicates.ArrayList;
+package org.InterviewQuestions.removeDuplicates.ArrayList;
 
 import java.util.ArrayList;
 import java.util.LinkedHashSet;

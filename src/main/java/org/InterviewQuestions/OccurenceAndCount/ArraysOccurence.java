@@ -1,4 +1,4 @@
-package InterviewQuestions.OccurenceAndCount;
+package org.InterviewQuestions.OccurenceAndCount;
 
 import java.util.HashMap; 
 import java.util.Map;

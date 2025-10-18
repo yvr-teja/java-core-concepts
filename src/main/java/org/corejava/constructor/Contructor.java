@@ -1,4 +1,4 @@
-package constructor;
+package org.corejava.constructor;
 
 class Contructor {
     int x;

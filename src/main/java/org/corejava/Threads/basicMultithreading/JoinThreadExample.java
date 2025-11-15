@@ -19,5 +19,10 @@ public class JoinThreadExample {
         one.join();
         two.join();
         System.out.println("Done executing the threads");  //this is line first printed  --> This is because of priority
+
+        /*
+        The join() method in Java allows one thread to wait until another thread has finished
+        its execution, ensuring tasks run in sequence rather than concurrently.
+         */
     }
 }

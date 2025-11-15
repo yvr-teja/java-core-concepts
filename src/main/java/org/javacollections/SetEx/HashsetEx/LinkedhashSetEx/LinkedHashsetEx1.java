@@ -7,7 +7,7 @@ public class LinkedHashsetEx1 {
         //underlying DS -> hashtable + linkedlist
         // hashtable-> for faster loopup and uniqueness
         // linked list-> uses Doubly LinkedList for preserving order
-        //when you need uniqueness + insertion order.
+        //when you need uniqueness + insertion order + preserving order.
         LinkedHashSet<Object> linkedHashset=new LinkedHashSet<>();
         linkedHashset.add("Satish");
         linkedHashset.add(10);

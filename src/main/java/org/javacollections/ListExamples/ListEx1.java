@@ -1,5 +1,6 @@
 package org.javacollections.ListExamples;
 
+
 import java.util.*;
 
 public class ListEx1 {

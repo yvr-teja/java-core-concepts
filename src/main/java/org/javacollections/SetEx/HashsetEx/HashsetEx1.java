@@ -9,7 +9,7 @@ public class HashsetEx1 {
         //null insertion is possible - but only one element is inserted
         //implements Serializable and Clonable interface, but no RandomAccess Implementation
         //HashSet is the best choice, if our frequent operation is Search operation, but not frequent insertion
-        //when you just need uniqueness + speed
+        //when you just need uniqueness + speed + do not preserve order.
         /*
         * Constructors of HashSet
             1) HashSet h = new HashSet();
@@ -25,7 +25,7 @@ public class HashsetEx1 {
             & specified Load Factor (or Fill Ratio)
 
             4) HashSet h = new HashSet(Collection c);
-            - For inter conversion between Collection objests.
+            - For inter conversion between Collection objests.
         * */
         HashSet<Object> hashSet=new HashSet<>();
         hashSet.add("Sai");

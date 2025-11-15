@@ -9,11 +9,11 @@ public class ScheduleExecutorDemo {
         ScheduledExecutorService service = Executors.newScheduledThreadPool(1);
         service.scheduleAtFixedRate(new ProbeTask(),1000,2000, TimeUnit.MILLISECONDS);
         try {
-            if (!service.awaitTermination(12, TimeUnit.SECONDS)) {
+            if (!service.awaitTermination(10000, TimeUnit.MILLISECONDS)) {
                 service.shutdownNow();
             }
         }
-        catch (Exception e){
+        catch (InterruptedException e){
             service.shutdownNow();
         }
     }

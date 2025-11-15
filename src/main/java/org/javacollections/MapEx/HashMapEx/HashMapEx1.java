@@ -8,6 +8,7 @@ import java.util.Map;
 public class HashMapEx1 {
     public static void main(String[] args) {
         //underlying DS -> It's a structure with an array of buckets, where each bucket holds a linked list or balanced tree of Node objects.
+        //(hashtable contains in array of buckets )
         //best for fast lookups by a unique key, like in a dictionary or cache.
         //worst choice when you need to maintain a specific order or perform range queries on the data.
         //not synchronized by default → much faster in single-threaded environments.

@@ -8,6 +8,7 @@ public class LinkedHashMapEx1 {
         //Insertion order preserves, no duplicates are allowed in keys, if a duplicate key is inserted new val replaces old val.
         //one null key, multiple null values allowed
         //LinkedHashMap linkedHashMap =new LinkedHashMap(10(Initial_Capaity),0.2F(Load_factor),true(AccessOrder));
+        //
         LinkedHashMap<Object, Object> linkedHashMap =new LinkedHashMap<>();
         linkedHashMap.put(null,"1");
         linkedHashMap.put(null,"2");

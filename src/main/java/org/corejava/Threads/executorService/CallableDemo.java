@@ -15,6 +15,10 @@ public class CallableDemo {
          submit() → runs a task and returns a `Future so you can get the result or check completion.
         */
         //System.out.println(result.get()); //this has an overloaded method
+        //result.cancel(true);
+        //boolean cancelled  = result.isCancelled();
+        boolean done = result.isDone();
+        System.out.println("is Done "+done );
         System.out.println(result.get(6,TimeUnit.SECONDS));
         System.out.println("Main thread execution completed !! ");
         /* Three more important methods

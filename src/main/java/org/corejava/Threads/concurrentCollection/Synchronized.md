@@ -117,3 +117,28 @@ Concurrent Map Implementations
 2. Acquiring Lock
 3. Searching in Segment
 4. Releasing Lock
+
+                ||============================||
+                ||     Copy On Write Array    ||
+                ||============================||
+#   Introduction to COWA
+    > What is COWA?
+    Definition: CopyOnWriteArrayList is a thread-safe implementation of List in Java, found in the java.util.concurrent package.
+    Working Principle: On every write operation (add, remove, update), it creates a new copy of the underlying array.
+
+#   Advantages:
+>Safe to use in multi-threaded environments without explicit synchronization.
+>Iterators never throw ConcurrentModificationException.
+>Ideal when reads are frequent and writes are rare.
+
+#   Disadvantages:
+>Write operations are costly because they involve copying the entire array.
+>Not suitable for scenarios with heavy modifications.
+
+#   Use Cases:
+    Maintaining lists of event listeners, caches, or subscriber lists where reads dominate writes.
+    
+> Why and When to use COWA
+    > How it works?
+    > Comparing the approach to Git branching!
+    > Let's visualise!

@@ -1,4 +1,4 @@
-package org.java8andlater.BiFunction;
+package org.java8andlater.fuctionalinterface.BiFunction;
 
 import java.util.Arrays;
 import java.util.List;

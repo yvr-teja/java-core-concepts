@@ -1,4 +1,4 @@
-package org.java8andlater.predicate;
+package org.java8andlater.fuctionalinterface.predicate;
 
 import java.util.List;
 import java.util.function.Predicate;

@@ -1,4 +1,4 @@
-package org.java8andlater.Consumers;
+package org.java8andlater.fuctionalinterface.Consumers;
 
 import java.util.Arrays;
 import java.util.List;

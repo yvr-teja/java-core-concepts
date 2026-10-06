@@ -1,4 +1,4 @@
-package org.java8andlater.predicate;
+package org.java8andlater.fuctionalinterface.predicate;
 
 public class Employee {
     private int id;

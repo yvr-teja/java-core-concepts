@@ -1,25 +1,34 @@
 package org.corejava.serializationanddeserialization;
 
-import java.io.FileInputStream;
-import java.io.ObjectInputStream;
-import java.io.Serializable;
+import java.io.*;
 
-public class ExampleDeserialization implements Serializable {
+public class ExampleDeserialization {
+
+
     public static void main(String[] args) {
-        String fileName="D:\\programs\\serializationFiles\\testdeserialization.txt";
-try {
-        FileInputStream fis = new FileInputStream(fileName);
-        ObjectInputStream ois = new ObjectInputStream(fis);
+        String fileName="/home/teja/Documents/MyGitProjects/src/main/java/org/corejava/serializationanddeserialization/Testfile.txt";
 
-    org.corejava.serializationanddeserialization.Student student =(org.corejava.serializationanddeserialization.Student) ois.readObject();
-    System.out.println(student.name);
-    System.out.println(student.rollNum);
-    ois.close();
-    fis.close();
-}
-    catch (Exception e){
-        System.out.println(e);
-    }
+        try {
+            FileInputStream fis=new FileInputStream(fileName);
+            ObjectInputStream ois=new ObjectInputStream(fis);
 
+            Student obj=(Student)ois.readObject();
+            System.out.println(obj.rollNum);
+            System.out.println(obj.name);
+            System.out.println(obj.grade);
+            System.out.println(obj.password);
+           // System.out.println(obj.university);
+            //System.out.println(obj.toString());
+
+            ois.close();
+            fis.close();
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (ClassNotFoundException e) {
+            throw new RuntimeException(e);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
     }
 }
